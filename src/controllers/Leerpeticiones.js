@@ -2,7 +2,7 @@ import Axios from 'axios';
 import { modelNew } from '../models//modelNewdoc';
 
 class LogPeticiones {
-    link = "http://localhost:4010/";
+    link = "http://18.218.83.38:4010/";
 
     conexion = Axios.create({
         baseURL: this.link

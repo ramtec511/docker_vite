@@ -2,7 +2,7 @@ import Axios from 'axios';
 import { modelEditdoc } from '../models/modelEditdoc';
 
 class EditPeticiones {
-    link = "http://localhost:4050/";
+    link = "http://18.218.83.38:4050/";
 
     conexion = Axios.create({
         baseURL: this.link
