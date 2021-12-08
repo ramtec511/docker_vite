@@ -1,5 +1,4 @@
 {
     "root": "./dist",
-    "https_only": true,
-    "basic_auth": true
+    "https_only": true
 }
